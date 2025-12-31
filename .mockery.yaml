@@ -1,0 +1,7 @@
+packages:
+  github.com/bnema/copy-that-path/internal/clipboard:
+    config:
+      filename: "mock_copier.go"
+      inpackage: true
+    interfaces:
+      Copier:
