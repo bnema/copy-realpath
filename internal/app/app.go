@@ -4,8 +4,8 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/bnema/copy-that-path/internal/clipboard"
-	"github.com/bnema/copy-that-path/internal/path"
+	"github.com/bnema/copy-realpath/internal/clipboard"
+	"github.com/bnema/copy-realpath/internal/path"
 )
 
 // PathResolver defines the interface for path resolution.

@@ -1,4 +1,4 @@
-module github.com/bnema/copy-that-path
+module github.com/bnema/copy-realpath
 
 go 1.25.5
 

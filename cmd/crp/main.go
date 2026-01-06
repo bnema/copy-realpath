@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/bnema/copy-that-path/internal/app"
+	"github.com/bnema/copy-realpath/internal/app"
 )
 
 func main() {
@@ -17,7 +17,7 @@ func main() {
 	application := app.NewDefault()
 	path, err := application.Run(input)
 	if err != nil {
-		fmt.Fprintf(os.Stderr, "cpt: %v\n", err)
+		fmt.Fprintf(os.Stderr, "crp: %v\n", err)
 		os.Exit(1)
 	}
 
